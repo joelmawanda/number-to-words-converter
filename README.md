@@ -1,4 +1,4 @@
-# number-to-words-converter
+# Number to words converter
 The Number to words converter is a console application written in Java that that converts any number in the range (0 - 100000000000) to words.
 
 # Features
