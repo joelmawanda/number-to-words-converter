@@ -24,7 +24,7 @@ public class NumberToWordsConverter {
         try {
             System.out.print("Enter a number (0 - 100000000000): ");
             number = scanner.nextLong();
-            if(number > 100000000000L){
+            if(number < 0 || number > 100000000000L){
                 System.out.println("Number " +number+ " is out of range");
             }
             else{
@@ -39,7 +39,7 @@ public class NumberToWordsConverter {
     }
 
     public static String convertNumberToWords(long number) {
-        try {
+
             if (number == 0) {
                 return "zero";
             }
@@ -53,13 +53,7 @@ public class NumberToWordsConverter {
                 number /= 1000;
             }
             return words.toString().trim();
-        }catch (ArrayIndexOutOfBoundsException e){
-            System.out.println(e.getLocalizedMessage());
-        }
-
-        return "The number " + number + " is out of range";
     }
-
     private static String convertNumber(long number) {
         if (number == 0) {
             return "";
