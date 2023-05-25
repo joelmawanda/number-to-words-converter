@@ -16,7 +16,7 @@ The Number to words converter is a console application written in Java that that
   
 # Running the simulator
   1. After successfully building the project, navigate to the target directory: **cd target**
-  2. Run the simulator using the following command: **java -jar number-to-words-converter-1.0-SNAPSHOT.jar**
+  2. Run the simulator using the following command: **java -jar number-to-words-1.0-SNAPSHOT.jar**
   3. Follow the on-screen instructions to interact with the simulator. **You can enter a number to be converted to words**
   
 # Contributing
