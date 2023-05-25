@@ -24,13 +24,15 @@ public class NumberToWordsConverter {
         try {
             System.out.print("Enter a number (0 - 100000000000): ");
             number = scanner.nextLong();
+//            if(number > 100000000000){
+//
+//            }
+            String words = convertNumberToWords(number);
+            System.out.println("The entered number " + number + " in words is " + words);
         } catch (InputMismatchException e) {
             System.out.println("Invalid input. Please enter a valid number.");
             return;
         }
-
-        String words = convertNumberToWords(number);
-        System.out.println("The entered number " + number + " in words is " + words);
         scanner.close();
     }
 
