@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="number-to-words" />
+        <module name="number-to-words-converter" />
       </profile>
     </annotationProcessing>
   </component>
